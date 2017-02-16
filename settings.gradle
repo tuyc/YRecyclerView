@@ -1,0 +1,4 @@
+include ':app', ':yrecyclerview'
+
+
+project(':yrecyclerview').projectDir = new File('yrecyclerview')

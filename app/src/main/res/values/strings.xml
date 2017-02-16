@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">YRecyclerView</string>
+
+    <string name="app_loadmore">加载更多</string>
+    <string name="app_refresh">松开刷新</string>
+
+    <string name="app_default_use">默认Header和Footer</string>
+    <string name="app_custom_use">自定义Header和Footer</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">YRecyclerview</string>
+    <string name="listview_header_hint_normal">释放刷新</string>
+</resources>

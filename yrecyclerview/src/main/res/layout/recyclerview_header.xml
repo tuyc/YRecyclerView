@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom">
+
+    <RelativeLayout
+        android:id="@+id/listview_header_content"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/refresh_header_height">
+
+        <TextView
+            android:id="@+id/refresh_status_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#A7DAE6"
+            android:textSize="16sp"
+            android:text="@string/listview_header_hint_normal" />
+
+        <com.yeyu.widget.yrecyclerview.SimpleViewSwitcher
+            android:id="@+id/listview_header_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/refresh_header_switcher_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>
